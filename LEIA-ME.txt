@@ -1,0 +1,26 @@
+MANUAL APS 3.0 OFFLINE — 16/11/2026
+
+Conteúdo: 775 condições (558 Adultos, 71 Gestantes, 146 Pediatria), 4.658 cards.
+Banco clínico da versão Lote 10 de 24/10/2026, idêntico ao original.
+Interface com correções de modo escuro e teclado iPhone de 13/11/2026.
+Não usa API, Cloudflare D1, login ou CDN para consultar o banco.
+
+COMPUTADOR: use o arquivo HTML avulso ou extraia o ZIP e abra index.html.
+IPHONE/ANDROID: hospede os arquivos extraídos em um endereço HTTPS separado.
+No iPhone, abra pelo Safari, adicione à Tela de Início, abra o app instalado
+com internet e aguarde o rodapé indicar “Pronto para uso offline”. Ligue o
+modo avião, feche e reabra o app; confirme busca e consulta nas três áreas.
+O navegador pode apagar o armazenamento local; nesse caso será necessário
+reabrir com internet. Links externos, se acessados, exigem conexão.
+
+ATENÇÃO: o banco clínico inteiro está dentro do HTML. Não publique em
+repositório ou site público se a proteção contra cópia for prioridade.
+O site atual não foi alterado. Hospedar esta versão separadamente é preferível.
+
+VALIDAÇÃO: igualdade integral de JSON aferida programaticamente; Chromium em
+modo offline com HTML carregado em memória: busca em Adultos, Gestantes,
+Pediatria, abertura de cards e modo escuro, sem erros JS nem requisições de rede.
+Campos de calculadoras foram identificados, fórmulas originais preservadas.
+O ambiente bloqueou navegação local (file:// e servidor HTTP localhost); não
+foi possível testar instalação, recarga offline pelo service worker ou Safari
+real. Nenhuma nova validação clínica/farmacológica integral foi realizada.
