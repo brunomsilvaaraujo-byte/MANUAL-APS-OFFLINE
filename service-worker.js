@@ -2,7 +2,7 @@
    Mesma chave de cache esperada pelo index.html publicado. */
 const ROOT = new URL('./', self.location.href).href;
 const PREFIX = 'manual-aps-offline-';
-const CACHE = PREFIX + '20261116-v3:' + ROOT;
+const CACHE = PREFIX + '20261116-v4:' + ROOT;
 const ASSETS = ['index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png']
   .map(file => new URL(file, ROOT).href);
 const INDEX = ASSETS[0];
